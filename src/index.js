@@ -1,14 +1,14 @@
 import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
-import Color from './Color';
+import Calculator from './Calculator';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <Color/>
+    <Calculator/>
   </StrictMode>
 );
 // // 1) Lucky Number
